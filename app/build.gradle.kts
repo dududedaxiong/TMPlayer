@@ -74,7 +74,7 @@ android {
 
     defaultConfig {
         applicationId = "com.tmplayer"
-        minSdk = 26
+        minSdk = 25
         targetSdk = 35
         // A release is cut by pushing a git tag, and the workflow passes the version through as
         // Gradle properties. The literals below are what a local build gets, and they track the
@@ -285,7 +285,7 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.foundation)
-    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.material3)
     implementation(libs.androidx.tv.material)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.activity.compose)
